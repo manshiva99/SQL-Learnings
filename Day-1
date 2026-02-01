@@ -1,0 +1,75 @@
+What is Database
+Container for storing data
+
+Why database
+1. Can handle large amount of data
+2. Safe and secure
+
+Who interact with database?
+Peoples, Applications, tools
+Tools in order to do data visualizations mayb a a dashboard or a report created using powerBI or tableau(used by stack holders and managers in order to make decisions). (Power BI)
+
+What is DBMS: 
+Software that manages database
+1. Manages all different requests to our database. It makes priority which sql executes first
+2. Manages security
+
+SQl(structured query language): Language we use to talk to database
+
+Why SQL?
+1. Talk to Data
+2. industry standards
+
+Sequence: Database -> dbms -> (people, Tools, applications)
+
+We need a hardware where database is up and running 24 by 7. (Server can be physical or on cloud)
+
+Summary:
+Database: stores data
+SQL: speaks to database
+DBMS: manages database
+server: where database lives
+
+Types of Database:
+1. Relational (Microsoft sql server, MySQL, PostgreSQL) 
+2. Key-Value (redis, amazon dynamodb)
+3. Column based (group data by columns) (apache Cassandra, amazon redshift)
+4. Graph db (relationships between objects) (neo4j)
+5. document based (data is stored as entire documents (mongoDB)
+
+No SQL: Key-Value, Column Based, Graph based, Document based
+
+Sequence
+Server can have multiple databases
+Example
+1. sale , 2. HR
+
+Each database (example Sale) we can have multiple schemas 
+What is schema? category or logical container to group related objects
+Example: one schema for orders, one schema for customers
+
+Schema (Example Order) can have multiple objects like tables
+
+Tables: columns (fields), rows (records)
+
+Primary key : Unique identifier for each customer, for each row
+Usage of PK : combine with another table, identify quicky one customer
+
+Data type : 
+            numeric : int (1, 2, 30), decimal (3.14, 100.50)
+            text : char (fixed) , varchar (dynamic)
+            date (2025-10-30) & Time (09:30:00) : 
+
+DDL (data definition language)
+create : to create something new
+alter : edit something that already exists
+drop : delete object completely
+
+DML (data manipulation language)
+insert
+update
+delete
+
+DQL (data query language) 
+select
+
